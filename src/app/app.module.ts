@@ -13,7 +13,7 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 @NgModule({
   declarations: [
     AppComponent,
-    NopagefoundComponent
+    NopagefoundComponent,
   ],
   imports: [
     BrowserModule,
@@ -21,6 +21,6 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
     PagesModule,
     AuthModule
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [ AppComponent ] 
 })
 export class AppModule { }
